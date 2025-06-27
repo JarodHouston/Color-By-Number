@@ -1,4 +1,4 @@
-# 🎨 Pixel Art Color-by-Number App
+# 🎨 Pixel Art Color-By-Number App
 
 This is a personal project that lets users upload images and convert them into pixelated color-by-number artwork. The frontend is built using **React**, **Vite**, and **Mantine**, with optional **PWA support** so it can be installed on devices like an iPad.
 
@@ -19,7 +19,7 @@ pixel-art-app/
 To work on the app locally (with live reloading):
 
 ```bash
-cd client
+cd client # if you want to run only the frontend
 npm run dev
 ```
 

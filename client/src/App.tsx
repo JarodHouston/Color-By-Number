@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Button, Title, Container, Paper, Text } from "@mantine/core";
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   useEffect(() => {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <Container>
         <Title order={1} mt="md" mb="lg">
           Pixel Art App 🎨

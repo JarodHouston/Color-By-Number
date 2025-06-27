@@ -1,0 +1,34 @@
+h1 {
+  margin: 10px 0;
+}
+
+.headerContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: fit-content;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+/* .settingsContainer {
+  background-color: none;
+} */
+
+.sideMenu {
+  position: fixed;
+  width: 400px;
+  left: 0;
+}
